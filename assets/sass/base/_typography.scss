@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+nav{
+    h2{
+        color: $whiteColor;
+        font-family: $openSans;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0;
+    }
+}
+header{
+    p{
+        text-align: $textCenter;
+        color: $whiteColor;
+        font-family: $openSans;
+        margin: 0;
+        font-size: $smallText;
+    }
+    h1{
+        text-align: $textCenter;
+        color: $whiteColor;
+        font-family: $playFair;
+        font-size: 130px;
+        margin: 0;
+    }
+}
+

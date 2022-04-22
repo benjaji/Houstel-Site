@@ -1,0 +1,35 @@
+header{
+    button{
+        background-color: $greenColor;
+        border: none;
+        box-sizing: border-box;
+        padding: 15px;
+        border-radius: 3px;
+        a{
+            color: $whiteColor;
+            text-decoration: none;
+            text-align: $textCenter;
+            font-size: $smallText;
+        }
+    }
+}
+main{
+    form{
+        button{
+            background-color: $pinkColor;
+            border: none;
+            box-sizing: border-box;
+            padding: 15px 0 15px 0;
+            width: 8%;
+            border-radius: 3px;
+            position: relative;
+            left: 46%;
+        }
+        a{
+            color: $whiteColor;
+            text-decoration: none;
+            text-align: $textCenter;
+            font-size: $smallText; 
+        }
+    }
+}

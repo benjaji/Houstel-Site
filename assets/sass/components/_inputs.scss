@@ -1,0 +1,17 @@
+main{
+    form{
+        padding: 20px;
+        input[type=text], select{
+            width: 100%;
+            display: block;
+            box-sizing: border-box;
+            padding: 10px 0 10px 0;
+            margin: 10px 0 10px 0;
+            color: $grayColor;
+        }
+        label{
+            font-family: $openSans;
+            color: $graniteColor;
+        }
+    }
+}
